@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App {
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+.navbar {
+    width: 100%;
+    
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* background: rgb(177, 198, 211); */
+  }
+  
+   .nav-links {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .App .navbar .nav-links>a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
